@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 96px 65px 91px 65px;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    padding: 3px;
+}
+
+.list {
+    list-style-position: inside;
+}
+
+.paragraph {
+    margin-top: 50px;
+}
+
+p {
+    margin-bottom: 30px;
+}
