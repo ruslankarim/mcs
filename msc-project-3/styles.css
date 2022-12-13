@@ -23,7 +23,7 @@
     height: 1080px;
     background-position: center;
     background-size: cover;
-    background-image: url(image/img.svg)
+    background-image: url(./image/img.svg)
 }
 
 .under-image {
