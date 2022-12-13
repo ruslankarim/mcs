@@ -8,6 +8,35 @@
     font-family: 'Helvetica';
 }
 
+.under-image {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+
+}
+
+.content-under-image {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-family: 'Helvetica';
+    
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFE0;
+}
+
+a:hover {
+    color: #87CEEB;
+    text-decoration: underline;
+}
+
 .header {
     height: 200px;
     background: #E5E000;
