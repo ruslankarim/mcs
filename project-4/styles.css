@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.footer {
+    padding: 20px 0 20px 20px;
+    background: #FE1A19;
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    padding: 52px 70px 52px 70px;
+    justify-content: space-between;
+}
+
+.content-title {
+    margin-bottom: 41px;
+}
+
+.content-item {
+    border: 5px solid #E5E000;
+    border-radius: 30px;
+    padding: 33px 33px 0px 33px;
+    width: 400px;
+}
+
+.middle {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    margin-bottom: 33px;
+}
