@@ -21,6 +21,7 @@
     display: flex;
     padding: 52px 70px 52px 70px;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .content-title {
@@ -35,8 +36,7 @@
 }
 
 .middle {
-    margin-left: 50px;
-    margin-right: 50px;
+    
 }
 
 p {
