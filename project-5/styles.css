@@ -40,16 +40,6 @@ header {
 }
 
 .claim {
-    display: flex;
-    border: 3px solid #F8BFC7;
-    border-radius: 20px;
-    width: 1040px;
-    font-family: 'Arial';
-    font-size: 25px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
     padding: 24px 24px 24px 24px;
 }
 
@@ -68,6 +58,10 @@ header {
 }
 
 .focus-product {
+    gap: 50px;
+}
+
+.info-block {
     display: flex;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
@@ -78,7 +72,6 @@ header {
     display: flex;
     align-items: center;
     letter-spacing: 0.05em;
-    gap: 50px;
 }
 
 .focus-product-img {
