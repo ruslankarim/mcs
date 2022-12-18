@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+[type="email"] {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #F8BFC7;
+}
+
+article {
+    background: #336FD1;
+}
+
+header {
+    display: flex;
+    background: #F8BFC7;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #000000;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+li {
+    margin-right: 30px;
+}
+
+nav {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.section-form {
+    height: 643px;
+    background-image: url("./images/background.svg");
+    padding-top: 90px;
+    padding-left: 90px;
+}
+
+.full-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.form {
+
+    height: 362px;
+    background: #F8BFC7;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 30px 0 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    background: #FEB700;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    width: 200px;
+    padding: 15px 38px 15px 38px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type="button"] {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    background: #FEB700;
+    color: #FFFFFF;
+    border: 0px;
+
+}
+
+footer {
+    background: #F8BFC7;
+    padding: 33px 50px 33px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+.claim {
+    padding-top: 30px;
+    padding-bottom: 114px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Helvetica';
+    color: #FEB700;
+}
+
+.form-row input[type="text"],
+input[type="email"] {
+    width: 240px;
+}
+
+label {
+    margin-bottom: 16px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+
+}
