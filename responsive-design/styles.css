@@ -99,6 +99,17 @@
     }
 }
 
+.header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+  }
+  
+  .photo img {
+    width: 100%;
+    display: block;
+  }
+
 .content {
     background-color: #f1eeee;
     height: 600px;
@@ -115,4 +126,9 @@
 
 .content {
     order: 2;
+}
+
+.illustration img {
+    width: 100%;
+    display: block;
 }
